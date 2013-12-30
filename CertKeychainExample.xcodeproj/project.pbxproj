@@ -16,24 +16,9 @@
 		2D78078A1819C62D0001D3E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7807891819C62D0001D3E8 /* main.m */; };
 		2D78078E1819C62D0001D3E8 /* CKEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D78078D1819C62D0001D3E8 /* CKEAppDelegate.m */; };
 		2D7807901819C62D0001D3E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D78078F1819C62D0001D3E8 /* Images.xcassets */; };
-		2D7807971819C62D0001D3E8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7807961819C62D0001D3E8 /* XCTest.framework */; };
-		2D7807981819C62D0001D3E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D78077D1819C62D0001D3E8 /* Foundation.framework */; };
-		2D7807991819C62D0001D3E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7807811819C62D0001D3E8 /* UIKit.framework */; };
-		2D7807A11819C62D0001D3E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D78079F1819C62D0001D3E8 /* InfoPlist.strings */; };
-		2D7807A31819C62D0001D3E8 /* CertKeychainExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7807A21819C62D0001D3E8 /* CertKeychainExampleTests.m */; };
 		2D7807AE1819C63F0001D3E8 /* KeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7807AD1819C63F0001D3E8 /* KeychainWrapper.m */; };
 		2D7807B31819C7CC0001D3E8 /* CKEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7807B21819C7CC0001D3E8 /* CKEViewController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2D78079A1819C62D0001D3E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2D7807721819C62D0001D3E8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D7807791819C62D0001D3E8;
-			remoteInfo = CertKeychainExample;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2D133157181AE98100989A0B /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
@@ -49,11 +34,7 @@
 		2D78078C1819C62D0001D3E8 /* CKEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CKEAppDelegate.h; sourceTree = "<group>"; };
 		2D78078D1819C62D0001D3E8 /* CKEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CKEAppDelegate.m; sourceTree = "<group>"; };
 		2D78078F1819C62D0001D3E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2D7807951819C62D0001D3E8 /* CertKeychainExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CertKeychainExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7807961819C62D0001D3E8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		2D78079E1819C62D0001D3E8 /* CertKeychainExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CertKeychainExampleTests-Info.plist"; sourceTree = "<group>"; };
-		2D7807A01819C62D0001D3E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2D7807A21819C62D0001D3E8 /* CertKeychainExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CertKeychainExampleTests.m; sourceTree = "<group>"; };
 		2D7807AC1819C63F0001D3E8 /* KeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainWrapper.h; sourceTree = "<group>"; };
 		2D7807AD1819C63F0001D3E8 /* KeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainWrapper.m; sourceTree = "<group>"; };
 		2D7807B11819C7CC0001D3E8 /* CKEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKEViewController.h; sourceTree = "<group>"; };
@@ -71,16 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D7807921819C62D0001D3E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D7807971819C62D0001D3E8 /* XCTest.framework in Frameworks */,
-				2D7807991819C62D0001D3E8 /* UIKit.framework in Frameworks */,
-				2D7807981819C62D0001D3E8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -88,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				2D7807831819C62D0001D3E8 /* CertKeychainExample */,
-				2D78079C1819C62D0001D3E8 /* CertKeychainExampleTests */,
 				2D78077C1819C62D0001D3E8 /* Frameworks */,
 				2D78077B1819C62D0001D3E8 /* Products */,
 			);
@@ -98,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				2D78077A1819C62D0001D3E8 /* CertKeychainExample.app */,
-				2D7807951819C62D0001D3E8 /* CertKeychainExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,24 +111,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2D78079C1819C62D0001D3E8 /* CertKeychainExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				2D7807A21819C62D0001D3E8 /* CertKeychainExampleTests.m */,
-				2D78079D1819C62D0001D3E8 /* Supporting Files */,
-			);
-			path = CertKeychainExampleTests;
-			sourceTree = "<group>";
-		};
-		2D78079D1819C62D0001D3E8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2D78079E1819C62D0001D3E8 /* CertKeychainExampleTests-Info.plist */,
-				2D78079F1819C62D0001D3E8 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,24 +131,6 @@
 			productReference = 2D78077A1819C62D0001D3E8 /* CertKeychainExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D7807941819C62D0001D3E8 /* CertKeychainExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D7807A91819C62D0001D3E8 /* Build configuration list for PBXNativeTarget "CertKeychainExampleTests" */;
-			buildPhases = (
-				2D7807911819C62D0001D3E8 /* Sources */,
-				2D7807921819C62D0001D3E8 /* Frameworks */,
-				2D7807931819C62D0001D3E8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2D78079B1819C62D0001D3E8 /* PBXTargetDependency */,
-			);
-			name = CertKeychainExampleTests;
-			productName = CertKeychainExampleTests;
-			productReference = 2D7807951819C62D0001D3E8 /* CertKeychainExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,12 +139,7 @@
 			attributes = {
 				CLASSPREFIX = CKE;
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = Boeing;
-				TargetAttributes = {
-					2D7807941819C62D0001D3E8 = {
-						TestTargetID = 2D7807791819C62D0001D3E8;
-					};
-				};
+				ORGANIZATIONNAME = "Jerica Truax";
 			};
 			buildConfigurationList = 2D7807751819C62D0001D3E8 /* Build configuration list for PBXProject "CertKeychainExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -226,7 +154,6 @@
 			projectRoot = "";
 			targets = (
 				2D7807791819C62D0001D3E8 /* CertKeychainExample */,
-				2D7807941819C62D0001D3E8 /* CertKeychainExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,14 +167,6 @@
 				2D13315A181AEF2A00989A0B /* testcert.p12 in Resources */,
 				2D7807901819C62D0001D3E8 /* Images.xcassets in Resources */,
 				2D133158181AE98100989A0B /* Storyboard.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D7807931819C62D0001D3E8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D7807A11819C62D0001D3E8 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,37 +184,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D7807911819C62D0001D3E8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D7807A31819C62D0001D3E8 /* CertKeychainExampleTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2D78079B1819C62D0001D3E8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2D7807791819C62D0001D3E8 /* CertKeychainExample */;
-			targetProxy = 2D78079A1819C62D0001D3E8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2D7807861819C62D0001D3E8 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2D7807871819C62D0001D3E8 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2D78079F1819C62D0001D3E8 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D7807A01819C62D0001D3E8 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -401,48 +296,6 @@
 			};
 			name = Release;
 		};
-		2D7807AA1819C62D0001D3E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CertKeychainExample.app/CertKeychainExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CertKeychainExample/CertKeychainExample-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "CertKeychainExampleTests/CertKeychainExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		2D7807AB1819C62D0001D3E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CertKeychainExample.app/CertKeychainExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CertKeychainExample/CertKeychainExample-Prefix.pch";
-				INFOPLIST_FILE = "CertKeychainExampleTests/CertKeychainExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -460,15 +313,6 @@
 			buildConfigurations = (
 				2D7807A71819C62D0001D3E8 /* Debug */,
 				2D7807A81819C62D0001D3E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D7807A91819C62D0001D3E8 /* Build configuration list for PBXNativeTarget "CertKeychainExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D7807AA1819C62D0001D3E8 /* Debug */,
-				2D7807AB1819C62D0001D3E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -3,7 +3,7 @@
 //  CertKeychainExample
 //
 //  Created by Jerica Truax on 10/24/13.
-//  Copyright (c) 2013 Boeing. All rights reserved.
+//  Copyright (c) 2013 Jerica Truax. All rights reserved.
 //
 
 #import "KeychainWrapper.h"
